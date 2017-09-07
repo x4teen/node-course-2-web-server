@@ -59,7 +59,10 @@ app.get('/about', (req, res) => {
 app.get('/project', (req, res) => {
   res.render('project.hbs', {
     pageTitle: 'Project Page',
-    welcomeMessage: 'Welcome to my project page'
+    welcomeMessage: 'Welcome to my project page',
+    project01 : 'https://explorable.com/paper-airplane-experiment',
+    project02 : 'https://sciencebob.com/build-a-hovercraft-you-can-ride/',
+    project03 : 'https://sciencebob.com/build-a-soap-powered-model-boat/'
   });
 });
 
